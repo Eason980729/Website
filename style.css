@@ -69,3 +69,34 @@ body, html {
 .footer p {
   font-size: 0.8rem;
 }
+.specialty-card {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  transition: transform 0.2s ease;
+  height: 100%;
+  text-align: center;
+}
+
+.specialty-card:hover {
+  transform: translateY(-5px);
+}
+
+.specialty-card i {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.specialty-card h5 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.specialty-card p {
+  font-size: 0.95rem;
+  margin: 0;
+}
